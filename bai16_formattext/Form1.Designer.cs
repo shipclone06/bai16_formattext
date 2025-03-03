@@ -34,6 +34,7 @@
             this.tiệnÍchToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.formattextToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.trợGiúpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.lblinfo = new System.Windows.Forms.Label();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -85,11 +86,20 @@
             this.trợGiúpToolStripMenuItem.Size = new System.Drawing.Size(61, 20);
             this.trợGiúpToolStripMenuItem.Text = "trợ giúp";
             // 
+            // lblinfo
+            // 
+            this.lblinfo.Location = new System.Drawing.Point(-3, 74);
+            this.lblinfo.Name = "lblinfo";
+            this.lblinfo.Size = new System.Drawing.Size(156, 43);
+            this.lblinfo.TabIndex = 3;
+            this.lblinfo.Text = "label1";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.lblinfo);
             this.Controls.Add(this.menuStrip1);
             this.Cursor = System.Windows.Forms.Cursors.Default;
             this.IsMdiContainer = true;
@@ -99,6 +109,7 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
             this.Text = "Form1";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
@@ -113,6 +124,7 @@
         private System.Windows.Forms.ToolStripMenuItem tiệnÍchToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem formattextToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem trợGiúpToolStripMenuItem;
+        private System.Windows.Forms.Label lblinfo;
     }
 }
 
