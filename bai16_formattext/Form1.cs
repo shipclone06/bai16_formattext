@@ -27,7 +27,7 @@ namespace bai16_formattext
         {
             formattext formatText = new formattext();
             formatText.MdiParent = this;
-            formatText.ShowDialog();
+            formatText.Show();
 
 
         }
